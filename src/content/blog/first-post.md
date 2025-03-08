@@ -1,7 +1,7 @@
 ---
-title: 'First post'
+title: 'Conclusions'
 description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Jul 08 2022'
+pubDate: '0000'
 heroImage: '/blog-placeholder-3.jpg'
 ---
 
