@@ -10,12 +10,11 @@ const posts = (await getCollection("blog")).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 
-import "./src/styles/global.css";
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
+	<head class="absolute">
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
 			main {
